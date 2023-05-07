@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Slim's Words</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/newLogo.PNG" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto header-ul">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">HOME
+                            <!-- <span class="visually-hidden">(current)</span> -->
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="freebies.html">FREEBIES
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="books.html">BOOKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <h1>Freebies</h1>
+                    <ul class="verticalsocialContactsList text-white ">
+                        <li class="socialItem  "><i class="fa  fa-facebook-official" aria-hidden="true"> </i></li>
+                        <li class="socialItem"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                        <li class="socialItem"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li class="socialItem"><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                        <li class="socialItem"><i class="fa fa-git-square" aria-hidden="true"></i></li>
+                        <li class="socialItem"><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                        <li class="socialItem"><i class="fa fa-pinterest" aria-hidden="true"></i></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="kindness">
+        <div id="popup-img" class="overlay">
+
+
+            <button onclick="closePopup()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab8.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img1" class="overlay">
+
+
+            <button onclick="closePopup1()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab9.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="free-bies-ul">
+                        <li>
+                            <a href="#all-tabs" class="all">All</a>
+
+                        </li>
+                        <li>
+                            <a href="#acceptance" class="accept ">Acceptance</a>
+
+                        </li>
+                        <li>
+                            <a href="#breathing" class="breath ">Breathing</a>
+
+                        </li>
+                        <li>
+                            <a href="#confidence" class="confidence ">Confidence</a>
+
+                        </li>
+
+                        <li>
+                            <a href="#gratitude" class="gratitude ">Gratitude
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#honesty" class="honesty ">Honesty</a>
+
+                        </li>
+                        <li>
+                            <a href="#kindness" class="kindness active-link">Kindness</a>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <div class="card">
+                        <img src="images/all-tab9.jpg" />
+
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-success d-flex justify-content-center freebies-btn"
+                                onclick="openPopup1()">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="honesty">
+        <div id="popup-img3" class="overlay">
+
+
+            <button onclick="closePopupHonesty1()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab9.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img2" class="overlay">
+
+
+            <button onclick="closePopupHonesty()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab1.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="free-bies-ul">
+                        <li>
+                            <a href="#all-tabs" class="all">All</a>
+
+                        </li>
+                        <li>
+                            <a href="#acceptance" class="accept ">Acceptance</a>
+
+                        </li>
+                        <li>
+                            <a href="#breathing" class="breath ">Breathing</a>
+
+                        </li>
+                        <li>
+                            <a href="#confidence" class="confidence ">Confidence</a>
+
+                        </li>
+
+                        <li>
+                            <a href="#gratitude" class="gratitude ">Gratitude
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#honesty" class="honesty active-link">Honesty</a>
+
+                        </li>
+                        <li>
+                            <a href="#kindness" class="kindness ">Kindness</a>
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/all-tab1.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm  d-flex justify-content-center freebies-btn1"
+                                onclick="openPopupHonesty()">Download</a>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <div class="card">
+                        <img src="images/all-tab9.jpg" />
+
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-success d-flex justify-content-center freebies-btn"
+                                onclick="openPopupHonesty1()">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="gratitude">
+        <div id="popup-img-great1" class="overlay">
+
+
+            <button onclick="closePopupGreat1()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab6.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-great2" class="overlay">
+
+
+            <button onclick="closePopupGreat2()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab7.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-great3" class="overlay">
+
+
+            <button onclick="closePopupGreat3()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab9.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="free-bies-ul">
+                        <li>
+                            <a href="#all-tabs" class="all">All</a>
+
+                        </li>
+                        <li>
+                            <a href="#acceptance" class="accept ">Acceptance</a>
+
+                        </li>
+                        <li>
+                            <a href="#breathing" class="breath ">Breathing</a>
+
+                        </li>
+                        <li>
+                            <a href="#confidence" class="confidence ">Confidence</a>
+
+                        </li>
+
+                        <li>
+                            <a href="#gratitude" class="gratitude active-link">Gratitude
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#honesty" class="honesty ">Honesty</a>
+
+                        </li>
+
+                        <li>
+                            <a href="#kindness" class="kindness ">Kindness</a>
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/all-tab6.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-success d-flex justify-content-center freebies-btn1"
+                                onclick="openPopupGreat1()">Download</a>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="images/all-tab7.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm  d-flex justify-content-center freebies-btn1"
+                                onclick="openPopupGreat2()">Download</a>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <div class="card">
+                        <img src="images/all-tab9.jpg" />
+
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-success  d-flex justify-content-center freebies-btn"
+                                onclick="openPopupGreat3()">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="confidence">
+        <div id="popup-img-con1" class="overlay">
+
+
+            <button onclick="closePopupConfidence1()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab5.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-con2" class="overlay">
+
+
+            <button onclick="closePopupConfidence2()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab9.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="free-bies-ul">
+                        <li>
+                            <a href="#all-tabs" class="all">All</a>
+
+                        </li>
+                        <li>
+                            <a href="#acceptance" class="accept ">Acceptance</a>
+
+                        </li>
+                        <li>
+                            <a href="#breathing" class="breath ">Breathing</a>
+
+                        </li>
+                        <li>
+                            <a href="#confidence" class="confidence active-link">Confidence</a>
+
+                        </li>
+                        <li>
+                            <a href="#gratitude" class="gratitude ">Gratitude
+                            </a>
+
+                        </li>
+
+                        <li>
+                            <a href="#honesty" class="honesty ">Honesty</a>
+
+                        </li>
+                        <li>
+                            <a href="#kindness" class="kindness ">Kindness</a>
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/all-tab5.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-success d-flex justify-content-center freebies-btn1 "
+                                onclick="openPopupConfidence1()">Download</a>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <div class="card">
+                        <img src="images/all-tab9.jpg" />
+
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-success d-flex justify-content-center freebies-btn"
+                                onclick="openPopupConfidence2()">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="acceptance">
+        <div id="popup-img-accept1" class="overlay">
+
+
+            <button onclick="closePopupAccept1()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab2.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-accept2" class="overlay">
+
+
+            <button onclick="closePopupAccept2()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab9.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="free-bies-ul">
+                        <li>
+                            <a href="#all-tabs" class="all">All</a>
+
+                        </li>
+                        <li>
+                            <a href="#acceptance" class="accept active-link">Acceptance</a>
+
+                        </li>
+                        <li>
+                            <a href="#breathing" class="breath ">Breathing</a>
+
+                        </li>
+                        <li>
+                            <a href="#confidence" class="confidence ">Confidence</a>
+
+                        </li>
+                        <li>
+                            <a href="#gratitude" class="gratitude ">Gratitude
+                            </a>
+
+                        </li>
+
+
+                        <li>
+                            <a href="#honesty" class="honesty ">Honesty</a>
+
+                        </li>
+                        <li>
+                            <a href="#kindness" class="kindness ">Kindness</a>
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/all-tab2.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm  d-flex justify-content-center freebies-btn1"
+                                onclick=" openPopupAccept1()">Download</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <div class="card">
+                        <img src="images/all-tab9.jpg" />
+
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-success d-flex justify-content-center freebies-btn"
+                                onclick=" openPopupAccept2()">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="all-tabs">
+        <div id="popup-img-all1" class="overlay">
+
+
+            <button onclick="closePopupAll1()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab1.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-all2" class="overlay">
+
+
+            <button onclick="closePopupAll2()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab2.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-all3" class="overlay">
+
+
+            <button onclick="closePopupAll3()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/soup.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-all4" class="overlay">
+
+
+            <button onclick="closePopupAll4()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/freebies8.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-all5" class="overlay">
+
+
+            <button onclick="closePopupAll5()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab5.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-all6" class="overlay">
+
+
+            <button onclick="closePopupAll6()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab6.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-all7" class="overlay">
+
+
+            <button onclick="closePopupAll7()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab7.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-all8" class="overlay">
+
+
+            <button onclick="closePopupAll8()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab8.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-all9" class="overlay">
+
+
+            <button onclick="closePopupAll9()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab9.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="free-bies-ul">
+                        <li>
+                            <a href="#all-tabs" class="all active-link">All
+
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#acceptance" class="accept">Acceptance</a>
+
+                        </li>
+                        <li>
+                            <a href="#breathing" class="breath ">Breathing</a>
+
+                        </li>
+                        <li>
+                            <a href="#confidence" class="confidence ">Confidence</a>
+
+                        </li>
+                        <li>
+                            <a href="#gratitude" class="gratitude ">Gratitude
+                            </a>
+
+                        </li>
+
+
+                        <li>
+                            <a href="#honesty" class="honesty ">Honesty</a>
+
+                        </li>
+                        <li>
+                            <a href="#kindness" class="kindness ">Kindness</a>
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/all-tab1.jpg" class=".all-about-image" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-primary d-flex justify-content-center
+                                freebies-btn1" onclick="openPopupAll1()">Download</a>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/all-tab2.jpg" class="all-tabs2-image" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-primary d-flex justify-content-center
+                                freebies-btn1
+                                " onclick="openPopupAll2()">Download</a>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="images/soup.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-primary d-flex justify-content-center
+                                freebies-btn1
+                                "
+                                onclick="openPopupAll3()">Download</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/freebies8.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-primary d-flex justify-content-center
+                                freebies-btn1
+                                "
+                                onclick="openPopupAll4()">Download</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="images/all-tab5.jpg" />
+                        <div class="card-body">
+                            <a href="#" 
+                            onclick="openPopupAll5()"
+                            class="btn btn-sm btn-primary d-flex justify-content-center
+                                freebies-btn1
+                                ">Download</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/all-tab6.jpg" />
+                        <div class="card-body">
+                            <a href="#"
+                            onclick="openPopupAll6()"
+                            class="btn btn-sm btn-primary d-flex justify-content-center
+                                freebies-btn1
+                                ">Download</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="images/all-tab7.jpg" />
+
+                        <div class="card-body">
+                            <a href="#" 
+                            onclick="openPopupAll7()"
+                            class="btn btn-sm btn-primary d-flex justify-content-center
+                                freebies-btn1
+                                ">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/all-tab8.jpg" />
+
+                        <div class="card-body">
+                            <a href="#" 
+                            onclick="openPopupAll8()"
+                            class="btn btn-sm btn-primary d-flex justify-content-center
+                                freebies-btn1
+                                ">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <div class="card">
+                        <img src="images/all-tab9.jpg" />
+
+                        <div class="card-body">
+                            <a href="#"
+                            onclick="openPopupAll9()"
+                                class="btn btn-sm btn-success d-flex justify-content-center freebies-btn ">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="breathing">
+        <div id="popup-img-breath1" class="overlay">
+
+
+            <button onclick="closePopupBreath1()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/soup.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-breath2" class="overlay">
+
+
+            <button onclick="closePopupBreath2()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/freebies8.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="popup-img-breath3" class="overlay">
+
+
+            <button onclick="closePopupBreath3()">&times;</button>
+            <div class="overlay-content ">
+
+                <div class="overlay-content ">
+
+                    <img src="images/all-tab9.jpg" class="image-popup" />
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="free-bies-ul">
+                        <li>
+                            <a href="#all-tabs" class="all">All</a>
+
+                        </li>
+                        <li>
+                            <a href="#acceptance" class="accept ">Acceptance</a>
+
+                        </li>
+                        <li>
+                            <a href="#breathing" class="breath active-link">Breathing</a>
+
+                        </li>
+                        <li>
+                            <a href="#confidence" class="confidence ">Confidence</a>
+
+                        </li>
+                        <li>
+                            <a href="#gratitude" class="gratitude ">Gratitude
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#honesty" class="honesty ">Honesty</a>
+
+                        </li>
+
+
+                        <li>
+                            <a href="#kindness" class="kindness ">Kindness</a>
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <div class="card">
+                        <img src="images/soup.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm  d-flex justify-content-center freebies-btn1"
+                                onclick=" openPopupBreath1()">Download</a>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card">
+                        <img src="images/freebies8.jpg" />
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm  d-flex justify-content-center freebies-btn1"
+                                onclick=" openPopupBreath2()">Download</a>
+                            breathing pat
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="row sub-row">
+                <div class="col-12 col-sm-6 col-md-4">
+
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <div class="card">
+                        <img src="images/all-tab9.jpg" />
+
+                        <div class="card-body">
+                            <a href="#" class="btn btn-sm btn-success d-flex justify-content-center freebies-btn"
+                                onclick=" openPopupBreath3()">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="footer">
+        <div class="container pt-5">
+            <div class="row ">
+                <div class="col-12 col-sm-12 col-md-5">
+
+                    <h3>INFORMATION</h3>
+                    <ul class="informationfooter">
+                        <li>Books</li>
+                        <li>Trems and Conditions</li>
+                        <li>Contact</li>
+                        <li>Gratitude Lesson Contest</li>
+                        <li>Work With Me</li>
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-5">
+
+                    <h3>Contact With Us</h3>
+                    <ul class="footer-social-contacts">
+                        <li class="footer-contact-list-item"><i class="fa  fa-facebook-official" aria-hidden="true">
+                            </i></li>
+                        <li class="footer-contact-list-item"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                        <li class="footer-contact-list-item"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li class="footer-contact-list-item"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </li>
+                        <li class="footer-contact-list-item"><i class="fa fa-git-square" aria-hidden="true"></i>
+                        </li>
+                        <li class="footer-contact-list-item"><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                        <!-- <li class="footerContactListItem"><i class="fa fa-pinterest" aria-hidden="true"></i></li> -->
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-2">
+
+                    <img src="images/author-badge-footer.png" id="footerBadge1" />
+                </div>
+
+            </div>
+
+
+        </div>
+        <h5 class="footer-text ">Copyright by Alicia Ortego 2023</h5>
+        </div>
+
+    </section>
+
+    <script type="text/javascript" src="./js/slims.js"></script>
+
+    <script>
+        $('.single-item').slick({
+            dots: true,
+            arrows: false,
+            slideToShow: 1
+
+        });
+        $('.videos_slider').slick({
+            dots: true,
+            arrows: false,
+            slideToShow: 1
+
+        });
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            $('#acceptance').hide()
+            $('#breathing').hide()
+            $('#confidence').hide()
+            $('#gratitude').hide()
+            $('#honesty').hide()
+            $('#kindness').hide()
+            // $('.link').click(function () {
+            $('.all').click(function () {
+                $('#all-tabs').show()
+                $('#acceptance').hide()
+                $('#breathing').hide()
+                $('#confidence').hide()
+                $('#gratitude').hide()
+                $('#honesty').hide()
+                $('#kindness').hide()
+            })
+            $('.accept').click(function () {
+                $('#all-tabs').hide()
+                $('#breathing').hide()
+                $('#acceptance').show()
+                $('#confidence').hide()
+                $('#gratitude').hide()
+                $('#honesty').hide()
+                $('#kindness').hide()
+            })
+            $('.breath').click(function () {
+                $('#all-tabs').hide()
+                $('#acceptance').hide()
+                $('#breathing').show()
+                $('#confidence').hide()
+                $('#gratitude').hide()
+                $('#honesty').hide()
+                $('#kindness').hide()
+            })
+            $('.confidence').click(function () {
+                $('#all-tabs').hide()
+                $('#acceptance').hide()
+                $('#breathing').hide()
+                $('#confidence').show()
+                $('#gratitude').hide()
+                $('#honesty').hide()
+                $('#kindness').hide()
+            })
+            $('.gratitude').click(function () {
+                $('#all-tabs').hide()
+                $('#acceptance').hide()
+                $('#breathing').hide()
+                $('#confidence').hide()
+                $('#gratitude').show()
+                $('#honesty').hide()
+                $('#kindness').hide()
+            })
+            $('.honesty').click(function () {
+                $('#all-tabs').hide()
+                $('#acceptance').hide()
+                $('#breathing').hide()
+                $('#confidence').hide()
+                $('#gratitude').hide()
+                $('#honesty').show()
+                $('#kindness').hide()
+
+            })
+            $('.kindness').click(function () {
+                $('#all-tabs').hide()
+                $('#acceptance').hide()
+                $('#breathing').hide()
+                $('#confidence').hide()
+                $('#gratitude').hide()
+                $('#honesty').hide()
+                $('#kindness').show()
+
+            })
+            // var id = $(this).attr("rel");
+
+            // $('#' + id).slideToggle('slow');
+            // });
+
+        })
+    </script>
+
+</body>
+
+</html>
